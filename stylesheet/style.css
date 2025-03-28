@@ -35,20 +35,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 @font-face {
     font-family: 'ActayWide';
-    src: url(".../Fonts/ActayWide-Bold.woff2") format('woff2'),
-         url(".../Fonts/ActayWide-Bold.ttf") format('truetype');
+    src: url("../Fonts/ActayWide-Bold.woff2") format('woff2'),
+         url("../Fonts/ActayWide-Bold.ttf") format('truetype');
     font-weight: 700;
 }
 @font-face {
     font-family: 'Stolzl';
-    src: url(".../Fonts/stolzl_book.woff2") format('woff2'),
-         url(".../Fonts/stolzl_book.ttf") format('truetype');
+    src: url("../Fonts/stolzl_book.woff2") format('woff2'),
+         url("../Fonts/stolzl_book.ttf") format('truetype');
     font-weight: 400;
 }
 @font-face {
     font-family: 'StolzlMedium';
-    src: url(".../Fonts/stolzl_medium.woff2") format('woff2'),
-         url(".../Fonts/stolzl_medium.ttf") format('truetype');
+    src: url("../Fonts/stolzl_medium.woff2") format('woff2'),
+         url("../Fonts/stolzl_medium.ttf") format('truetype');
     font-weight: 500;
 }
 
