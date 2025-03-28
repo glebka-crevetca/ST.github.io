@@ -35,8 +35,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 @font-face {
     font-family: 'ActayWide';
-    src: url(/Fonts/ActayWide-Bold.ttf) format('truetype'),
-         url(/Fonts/ActayWide-Bold.woff2) format('woff2');
+    src: url(/Fonts/ActayWide-Bold.woff2) format('woff2'),
+         url(/Fonts/ActayWide-Bold.ttf) format('truetype');
     font-weight: 700;
 }
 @font-face {
