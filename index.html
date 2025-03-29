@@ -1,204 +1,328 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="Photo/icon-site.ico">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="stylesheet/autoslider.css">
-    <link rel="stylesheet" href="stylesheet/slider2-mob.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="Photo/icon-site.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="stylesheet" href="stylesheet/autoslider.css" />
+    <link rel="stylesheet" href="stylesheet/slider2-mob.css" />
     <title>Shepelev team - грип-команда для съёмок</title>
-    <meta name="description" content="Техническое обеспечение съемок, аренда кинооборудования, подбор техники, схемы освещения, консультации для режиссёров и продюсеров, доставка и обслуживание оборудования на площадке, cвет в аренду.">
-    <meta name="keywords" content="аренда кинооборудования, аренда кинокамер, аренда осветительного оборудования, аренда звукового оборудования, аренда оборудования для съёмок, аренда стабилизаторов изображения, аренда операторской техники, услуги гаффера, услуги видеоператора, грип-команда, grip department, грип-специалисты, key grip, dolly grip, dimmer board, техническое обеспечение съёмок, проектирование освещения для съёмок, проектирование световых схем, световые спецэффекты на съемках, аренда кинооборудования для клипов, аренда кинооборудования для рекламы, аренда кинооборудования для фильма, консультации по кинооборудованию, технический персонал для съёмок, видеотехника для съемок в аренду, установка осветительного оборудования для съёмок, аренда стабилизаторов для камеры, консультирование режиссёров, консультирование продюсеров, аренда оборудования для киностудий, аренда операторского оборудования для фильма, техническое обслуживание кинооборудования, подбор камер и объективов для съемок, аренда оборудования для музыкальных клипов, разработка технических концепций съемок, услуги видеоинженеров на съемках, аренда профессионального освещения, аренда камер для художественного кино, гаффер, создание спецэффектов, техническое обслуживание кинооборудования, техническое обслуживание съёмок, техническое обслуживание клипов, техническое обеспечение кино, техническое обеспечение клипов, техническое обеспечение съёмок, световые спецэффекты, разработка технических решений для съёмок, специалист по свету в кино, оператор Москва, звукорежиссёр Москва, видеоинженер, видеоинженер Москва, разработка технических планов съёмок, разработка технических планов кино, планирование бюджета киносъёмок, планирование бюджета клипа, оборудование для съёмок, оборудование для съёмок Москва, кинокамеры Москва, освещение для съёмок Москва, звуковая аппаратура Москва, крепление для кинокамеры">
+    <meta
+      name="description"
+      content="Техническое обеспечение съемок, аренда кинооборудования, подбор техники, схемы освещения, консультации для режиссёров и продюсеров, доставка и обслуживание оборудования на площадке, cвет в аренду."
+    />
+    <meta
+      name="keywords"
+      content="аренда кинооборудования, аренда кинокамер, аренда осветительного оборудования, аренда звукового оборудования, аренда оборудования для съёмок, аренда стабилизаторов изображения, аренда операторской техники, услуги гаффера, услуги видеоператора, грип-команда, grip department, грип-специалисты, key grip, dolly grip, dimmer board, техническое обеспечение съёмок, проектирование освещения для съёмок, проектирование световых схем, световые спецэффекты на съемках, аренда кинооборудования для клипов, аренда кинооборудования для рекламы, аренда кинооборудования для фильма, консультации по кинооборудованию, технический персонал для съёмок, видеотехника для съемок в аренду, установка осветительного оборудования для съёмок, аренда стабилизаторов для камеры, консультирование режиссёров, консультирование продюсеров, аренда оборудования для киностудий, аренда операторского оборудования для фильма, техническое обслуживание кинооборудования, подбор камер и объективов для съемок, аренда оборудования для музыкальных клипов, разработка технических концепций съемок, услуги видеоинженеров на съемках, аренда профессионального освещения, аренда камер для художественного кино, гаффер, создание спецэффектов, техническое обслуживание кинооборудования, техническое обслуживание съёмок, техническое обслуживание клипов, техническое обеспечение кино, техническое обеспечение клипов, техническое обеспечение съёмок, световые спецэффекты, разработка технических решений для съёмок, специалист по свету в кино, оператор Москва, звукорежиссёр Москва, видеоинженер, видеоинженер Москва, разработка технических планов съёмок, разработка технических планов кино, планирование бюджета киносъёмок, планирование бюджета клипа, оборудование для съёмок, оборудование для съёмок Москва, кинокамеры Москва, освещение для съёмок Москва, звуковая аппаратура Москва, крепление для кинокамеры"
+    />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://shepelev.team">
-    <meta property="og:image" content="Photo/OpenGraf-photo.jpg">
-    <meta property="og:title" content="Shepelev team - грип-команда для съёмок">
-    <meta property="og:description" content="Техническое обеспечение съемок, аренда кинооборудования, подбор техники, схемы освещения, консультации для режиссёров и продюсеров, доставка и обслуживание оборудования на площадке, cвет в аренду.">
-    <meta name="robots" content="all">
-</head>
-<body>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shepelev.team" />
+    <meta property="og:image" content="Photo/OpenGraf-photo.jpg" />
+    <meta
+      property="og:title"
+      content="Shepelev team - грип-команда для съёмок"
+    />
+    <meta
+      property="og:description"
+      content="Техническое обеспечение съемок, аренда кинооборудования, подбор техники, схемы освещения, консультации для режиссёров и продюсеров, доставка и обслуживание оборудования на площадке, cвет в аренду."
+    />
+    <meta name="robots" content="all" />
+  </head>
+  <body>
     <div class="container">
-
-        <div class="main">
-
-            <div class="MainScreen">
-                <img src="Photo/Main.webp" alt="" class="MainScreenPhoto">
-                <img src="Photo/main(1000px).jpg" alt="" class="MainScreenPhoto1000">
-                <img src="Photo/main(690).jpg" alt="" class="MainScreenPhoto690">
-                <img src="Photo/main(460).jpg" alt="" class="MainScreenPhoto460">
-            </div>
-
-            <div class="MainContent">
-                <img src="Photo/Logo.svg" alt="" class="Logo">
-                <h1>Компания, которая предоставляет не просто оборудование, а предлагает комплексные решения, охватывающие все аспекты технической подготовки съёмок 
-                </h1>
-            </div>
-
-            <div class="Problems_Light" id="triangle"></div>
-            <div class="main-down"><img src="Photo/main-down.svg" alt="" class="main-down-img"></div>
-
+      <div class="main">
+        <div class="MainScreen">
+          <img src="Photo/Main.webp" alt="" class="MainScreenPhoto" />
+          <img
+            src="Photo/main(1000px).jpg"
+            alt=""
+            class="MainScreenPhoto1000"
+          />
+          <img src="Photo/main(690).jpg" alt="" class="MainScreenPhoto690" />
+          <img src="Photo/main(460).jpg" alt="" class="MainScreenPhoto460" />
         </div>
-        
-        <section class="AboutUs">
 
-            <article class="WhoWeAre">
-                <p class="WhoWeAre_Header">Кто мы ?</p>
-                <img src="Photo/Who-We-Are.jpg" alt="" class="WhoWeAre-img">
-                <p class="WhoWeAre_Text">Наша миссия — не только предоставить<br>оборудование и обеспечить его бесперебойную работу благодаря квалифицированным техническим специалистам, но и помочь в выборе наиболее эффективных технологий для достижения желаемого визуального эффекта<br><br>
-                    Мы консультируем киностудии и продюсеров, разрабатываем технические концепции проектов, планируем бюджеты и подбираем оптимальное оборудование<br><br>
-                    Учитываем все нюансы: от жанровой специфики и визуального стиля до требований к качеству изображения и звука<br><br>                   
-                    Мы помогаем режиссерам, операторам- постановщикам и продюсерам разрабатывать эффективные технические решения для воплощения их творческих идей. Проводим тестовые съемки, создаем технические планы.</p>
+        <div class="MainContent">
+          <img src="Photo/Logo.svg" alt="" class="Logo" />
+          <h1>
+            Компания, которая предоставляет не просто оборудование, а предлагает
+            комплексные решения, охватывающие все аспекты технической подготовки
+            съёмок 
+          </h1>
+        </div>
 
-                <img src="Photo/Line.svg" alt="" class="WhoWeAre_Line">
+        <div class="Problems_Light" id="triangle"></div>
+        <div class="main-down">
+          <img src="Photo/main-down.svg" alt="" class="main-down-img" />
+        </div>
+      </div>
 
-                <p class="WhoWeAre_Team">Команда</p>
-                <p class="WhoWeAre_Team_Text">Наша команда — это не только эксперты в своей области, но и специалисты, способные быстро адаптироваться к меняющимся условиям съемочной площадки, находить нестандартные решения и работать в тесном взаимодействии с творческой группой. В нашем штате — операторы камер, осветители, звукорежиссеры, видеоинженеры, техники и другие профессионалы, готовые работать в самых сложных и непредсказуемых условиях.</p>
-            </article>
+      <section class="AboutUs">
+        <article class="WhoWeAre">
+          <p class="WhoWeAre_Header">Кто мы ?</p>
+          <img src="Photo/Who-We-Are.jpg" alt="" class="WhoWeAre-img" />
+          <p class="WhoWeAre_Text">
+            Наша миссия — не только предоставить<br />оборудование и обеспечить
+            его бесперебойную работу благодаря квалифицированным техническим
+            специалистам, но и помочь в выборе наиболее эффективных технологий
+            для достижения желаемого визуального эффекта<br /><br />
+            Мы консультируем киностудии и продюсеров, разрабатываем технические
+            концепции проектов, планируем бюджеты и подбираем оптимальное
+            оборудование<br /><br />
+            Учитываем все нюансы: от жанровой специфики и визуального стиля до
+            требований к качеству изображения и звука<br /><br />
+            Мы помогаем режиссерам, операторам- постановщикам и продюсерам
+            разрабатывать эффективные технические решения для воплощения их
+            творческих идей. Проводим тестовые съемки, создаем технические
+            планы.
+          </p>
 
-            <article class="Problems">
-                <div class="Problems_Light-mob1" id="triangle1"></div>
-                <div class="Problems_Light-mob2" id="triangle2"></div>
-                <button class="Problems_Light_Button" id="toggleButton">нажмите, чтобы увидеть больше</button>
+          <img src="Photo/Line.svg" alt="" class="WhoWeAre_Line" />
 
-                <p class="Problems_Header" id="Header">Какие проблемы<br>мы решаем</p>
-                <p class="Problems_Text" id="problems">Техническое обслуживание оборудования на протяжении всего съемочного периода<br><br>
-                    Подбор оптимального комплекта камер, объективов и осветительных приборов с учетом специфики проекта и бюджета<br><br>
-                    Проектирование схем освещения и создание световых спецэффектов<br><br>
-                    Аренда современных кинокамер, осветительного оборудования, звукозаписывающей аппаратуры и систем стабилизации изображения</p>
+          <p class="WhoWeAre_Team">Команда</p>
+          <p class="WhoWeAre_Team_Text">
+            Наша команда — это не только эксперты в своей области, но и
+            специалисты, способные быстро адаптироваться к меняющимся условиям
+            съемочной площадки, находить нестандартные решения и работать в
+            тесном взаимодействии с творческой группой. В нашем штате —
+            операторы камер, осветители, звукорежиссеры, видеоинженеры, техники
+            и другие профессионалы, готовые работать в самых сложных и
+            непредсказуемых условиях.
+          </p>
+        </article>
 
-                <div class="slider-container">
-                    <button class="button left" id="prevButton"><img src="Photo/Slider1/Left.svg" alt="" class="left"></button>
-                    <div class="slider">
-                        <div class="slides" id="slides">
-                            <img src="Photo/Slider1/Photo_1_11zon.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_2_11zon.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_3_11zon.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_4_11zon.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_5_11zon.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_6.webp" alt="" class="slide">
-                            <img src="Photo/Slider1/Photo_7.webp" alt="" class="slide">
-                        </div>
-                    </div>
-                    <button class="button right" id="nextButton"><img src="Photo/Slider1/Right.svg" alt="" class="right"></button>
-                </div>
-            </article>
+        <article class="Problems">
+          <div class="Problems_Light-mob1" id="triangle1"></div>
+          <div class="Problems_Light-mob2" id="triangle2"></div>
+          <button class="Problems_Light_Button" id="toggleButton">
+            нажмите, чтобы увидеть больше
+          </button>
 
-        </section>
+          <p class="Problems_Header" id="Header">
+            Какие проблемы<br />мы решаем
+          </p>
+          <p class="Problems_Text" id="problems">
+            Техническое обслуживание оборудования на протяжении всего съемочного
+            периода<br /><br />
+            Подбор оптимального комплекта камер, объективов и осветительных
+            приборов с учетом специфики проекта и бюджета<br /><br />
+            Проектирование схем освещения и создание световых спецэффектов<br /><br />
+            Аренда современных кинокамер, осветительного оборудования,
+            звукозаписывающей аппаратуры и систем стабилизации изображения
+          </p>
 
-        <section class="Slider2">
-
-            <div class="Slider2_imgs">
-                <img src="Photo/Slider2/Shepelev.jpg" alt="" class="Slider2_img1 Slider2_first">
-                <img src="Photo/Slider2/Spotlight1.svg" alt="" class="Slider2_img2 Slider2_second">
+          <div class="slider-container">
+            <button class="button left" id="prevButton">
+              <img src="Photo/Slider1/Left.svg" alt="" class="left" />
+            </button>
+            <div class="slider">
+              <div class="slides" id="slides">
+                <img
+                  src="Photo/Slider1/Photo_1_11zon.webp"
+                  alt=""
+                  class="slide"
+                />
+                <img
+                  src="Photo/Slider1/Photo_2_11zon.webp"
+                  alt=""
+                  class="slide"
+                />
+                <img
+                  src="Photo/Slider1/Photo_3_11zon.webp"
+                  alt=""
+                  class="slide"
+                />
+                <img
+                  src="Photo/Slider1/Photo_4_11zon.webp"
+                  alt=""
+                  class="slide"
+                />
+                <img
+                  src="Photo/Slider1/Photo_5_11zon.webp"
+                  alt=""
+                  class="slide"
+                />
+                <img src="Photo/Slider1/Photo_6.webp" alt="" class="slide" />
+                <img src="Photo/Slider1/Photo_7.webp" alt="" class="slide" />
+              </div>
             </div>
+            <button class="button right" id="nextButton">
+              <img src="Photo/Slider1/Right.svg" alt="" class="right" />
+            </button>
+          </div>
+        </article>
+      </section>
 
-            <div class="Slider2_headers">
-                    <p class="Slider2_header1 Slider2_first">Сергей Шепелев</p>
-                    <p class="Slider2_header2 Slider2_second">Spotlight</p>
+      <section class="Slider2">
+        <div class="Slider2_imgs">
+          <img
+            src="Photo/Slider2/Shepelev.jpg"
+            alt=""
+            class="Slider2_img1 Slider2_first"
+          />
+          <img
+            src="Photo/Slider2/Spotlight1.svg"
+            alt=""
+            class="Slider2_img2 Slider2_second"
+          />
+        </div>
+
+        <div class="Slider2_headers">
+          <p class="Slider2_header1 Slider2_first">Сергей Шепелев</p>
+          <p class="Slider2_header2 Slider2_second">Spotlight</p>
+        </div>
+
+        <div class="Slider2_content">
+          <button class="prevBut" id="prevBut">
+            <img src="Photo/Slider2/Left_active.svg" alt="" />
+          </button>
+
+          <article class="Slider2_content_text">
+            <p class="Slider2_content_text1 Slider2_first">
+              Руководитель Shepelev Team. Гаффер<br /><br />
+              Обучался на операторских курсах ВГИК и школы Митты<br /><br />
+              20 лет в индустрии — Снял множество картин разного<br />жанра,
+              направления и художественного замысла<br /><br />
+              Выбрал профессию гаффера , так как нравится решать<br />сложные
+              задачи, разбираться в технических моментах и<br />организовывать
+              что то глобальное , сложное<br />и непостижимое в сфере
+              киносъёмок<br /><br />
+              ”Чем я лучше других? Ответственность моё кредо!<br />Заинтересованность
+              в каждом вопросе. Дисциплина.<br />Порядочность в решении
+              деликатных вопросов”
+            </p>
+            <p class="Slider2_content_text Slider2_second">
+              Конгломерат специалистов: key grip, dolly grip, риггеры,<br />dimmer
+              board<br /><br />
+              Работаем с профессиональным осветительным<br />оборудованием,
+              знаем все о грип-технике и создаем<br />надежную систему работы на
+              площадке<br /><br />
+              Огромный опыт съёмок за плечами<br /><br />
+              Предлагаем крутые креативные решения для наших,<br />киношных,
+              задач
+            </p>
+          </article>
+
+          <button class="nextBut" id="nextBut">
+            <img src="Photo/Slider2/Right_Active.svg" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <section class="Slider2-mob swiper">
+        <div class="Slider2-mob-slides swiper-wrapper">
+          <div class="slide1 swiper-slide">
+            <img
+              src="Photo/Slider2/Shepelev.jpg"
+              alt=""
+              class="Slider2-mob_img1"
+            />
+            <p class="Slider2-mob_header1">Сергей Шепелев</p>
+            <p class="Slider2-mob_content_text1">
+              Руководитель Shepelev Team. Гаффер<br /><br />
+              Обучался на операторских курсах ВГИК и школы Митты<br /><br />
+              20 лет в индустрии — Снял множество картин разного жанра,
+              направления и художественного замысла<br /><br />
+              Выбрал профессию гаффера , так как нравится решать сложные задачи,
+              разбираться в технических моментах и организовывать что то
+              глобальное , сложное и непостижимое в сфере киносъёмок<br /><br />
+              ”Чем я лучше других? Ответственность моё кредо! Заинтересованность
+              в каждом вопросе. Дисциплина. Порядочность в решении деликатных
+              вопросов”
+            </p>
+          </div>
+
+          <div class="slide2 swiper-slide">
+            <img
+              src="Photo/Slider2/Spotlight1.svg"
+              alt=""
+              class="Slider2-mob_img2"
+            />
+            <p class="Slider2-mob_header2">Spotlight</p>
+            <p class="Slider2-mob_content_text2">
+              Конгломерат специалистов: key grip, dolly grip, риггеры, dimmer
+              board<br /><br />
+              Работаем с профессиональным осветительным оборудованием, знаем все
+              о грип-технике и создаем надежную систему работы на площадке<br /><br />
+              Огромный опыт съёмок за плечами<br /><br />
+              Предлагаем крутые креативные решения для наших, киношных, задач
+            </p>
+          </div>
+        </div>
+        <div class="Slider2-mob-pagination swiper-pagination"></div>
+      </section>
+
+      <section class="WorkWithUs">
+        <article class="WorkWithUs_text">
+          <p class="text_header">Работа с нами</p>
+          <p class="text_text">
+            Мы работаем с проектами любой<br />сложности: фильмы, сериалы,
+            шоу,<br />концерты. За нашими плечами сотни<br />проектов — от
+            студийных съемок до<br />экстремальных шоу под водой и в воздухе<br /><br /><br />
+            Среди наших партнеров компании и<br />продакшены, с которыми мы
+            успешно<br />реализовали не один проект:<br />GOODSTORYMEDIA,
+            BAZELEVS PRODUCTION,<br />COMEDY PRODUCTION, POLINA GAGARINA,<br />TOP
+            DOG PRODUCTION, LUNA PARK,<br />творческое объединение
+            "Мистерия",<br />RUTUBE, STEREOTACTIC, KION, START, SILA<br />SVETA
+            и многие другие
+          </p>
+        </article>
+
+        <div class="WorkWithUs_Slider">
+          <div class="column column-1">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+          </div>
+
+          <div class="column column-2">
+            <div class="item item-4"></div>
+            <div class="column column-3">
+              <div class="item item-5"></div>
+
+              <div class="column column-4">
+                <div class="item item-6"></div>
+                <div class="item item-7"></div>
+              </div>
             </div>
+            <div class="item item-8"></div>
+          </div>
+        </div>
+      </section>
 
-            <div class="Slider2_content">
-                <button class="prevBut" id="prevBut"><img src="Photo/Slider2/Left_active.svg" alt=""></button>
-                 
-                <article class="Slider2_content_text">
-                    <p class="Slider2_content_text1 Slider2_first">Руководитель Shepelev Team. Гаффер<br><br>
-                        Обучался на операторских курсах ВГИК и школы Митты<br><br>
-                        20 лет в индустрии — Снял множество картин разного<br>жанра, направления и художественного замысла<br><br>
-                        Выбрал профессию гаффера , так как нравится решать<br>сложные задачи, разбираться в технических моментах и<br>организовывать что то глобальное , сложное<br>и непостижимое в сфере киносъёмок<br><br>
-                        ”Чем я лучше других? Ответственность моё кредо!<br>Заинтересованность в каждом вопросе. Дисциплина.<br>Порядочность в решении деликатных вопросов”
-                        </p>
-                    <p class="Slider2_content_text Slider2_second">Конгломерат специалистов: key grip, dolly grip, риггеры,<br>dimmer board<br><br>
-                        Работаем с профессиональным осветительным<br>оборудованием, знаем все о грип-технике и создаем<br>надежную систему работы на площадке<br><br>
-                         Огромный опыт съёмок за плечами<br><br>  
-                         Предлагаем крутые креативные решения для наших,<br>киношных, задач
-                        </p>
-                </article>
+      <footer class="footer">
+        <p class="footer-work">Сотруднечество</p>
 
-                <button class="nextBut" id="nextBut"><img src="Photo/Slider2/Right_Active.svg" alt=""></button>
+        <div class="footer-slogan">
+          <p class="footer-slogan-text">
+            Воплощаем самые смелые творческие замыслы, позволяя творцам
+            сосредоточится на главном – создании истории
+          </p>
+        </div>
+
+        <div class="footer-contacts">
+          <a href="tel:+79688215377" class="contact">+7 968 821 5377</a>
+
+          <div class="footer-contacts-inst">
+            <div class="inst-url">
+              <img src="Photo/Insta_Logo.svg" alt="" />
+              <a
+                href="https://www.instagram.com/shepelev_team?igsh=Ynpoc3ZzNWFoejh4"
+                >shepelev_team</a
+              >
             </div>
-        </section>
-
-        <section class="Slider2-mob swiper">
-            <div class="Slider2-mob-slides swiper-wrapper">
-                <div class="slide1 swiper-slide">
-                    <img src="Photo/Slider2/Shepelev.jpg" alt="" class="Slider2-mob_img1">
-                    <p class="Slider2-mob_header1">Сергей Шепелев</p>    
-                    <p class="Slider2-mob_content_text1">Руководитель Shepelev Team. Гаффер<br><br>
-                        Обучался на операторских курсах ВГИК и школы Митты<br><br>
-                        20 лет в индустрии — Снял множество картин разного жанра, направления и художественного замысла<br><br>
-                        Выбрал профессию гаффера , так как нравится решать сложные задачи, разбираться в технических моментах и организовывать что то глобальное , сложное и непостижимое в сфере киносъёмок<br><br>
-                        ”Чем я лучше других? Ответственность моё кредо! Заинтересованность в каждом вопросе. Дисциплина. Порядочность в решении деликатных вопросов”
-                    </p>
-                </div>
-
-                <div class="slide2 swiper-slide">
-                    <img src="Photo/Slider2/Spotlight1.svg" alt="" class="Slider2-mob_img2">
-                    <p class="Slider2-mob_header2">Spotlight</p>
-                    <p class="Slider2-mob_content_text2">Конгломерат специалистов: key grip, dolly grip, риггеры, dimmer board<br><br>
-                        Работаем с профессиональным осветительным оборудованием, знаем все о грип-технике и создаем надежную систему работы на площадке<br><br>
-                        Огромный опыт съёмок за плечами<br><br>  
-                        Предлагаем крутые креативные решения для наших, киношных, задач
-                    </p>
-                </div>
-            </div>
-            <div class="Slider2-mob-pagination swiper-pagination"></div>
-        </section>
-
-        <section class="WorkWithUs">
-
-            <article class="WorkWithUs_text">
-                <p class="text_header">Работа с нами</p>
-                <p class="text_text">Мы работаем с проектами любой<br>сложности: фильмы, сериалы, шоу,<br>концерты. За нашими плечами сотни<br>проектов — от студийных съемок до<br>экстремальных шоу под водой и в воздухе<br><br><br>
-                    Среди наших партнеров компании и<br>продакшены, с которыми мы успешно<br>реализовали не один проект:<br>GOODSTORYMEDIA, BAZELEVS PRODUCTION,<br>COMEDY PRODUCTION, POLINA GAGARINA,<br>TOP DOG PRODUCTION, LUNA PARK,<br>творческое объединение "Мистерия",<br>RUTUBE, STEREOTACTIC, KION, START, SILA<br>SVETA и многие другие</p>
-            </article>
-
-            <div class="WorkWithUs_Slider">
-
-                <div class="column column-1">
-                    <div class="item item-1"></div>
-                    <div class="item item-2"></div>
-                    <div class="item item-3"></div>
-                </div>
-            
-                <div class="column column-2">
-                    <div class="item item-4"></div>
-                    <div class="column column-3">
-                        <div class="item item-5"></div>
-
-                        <div class="column column-4">
-                            <div class="item item-6"></div>
-                            <div class="item item-7"></div>
-                        </div>
-
-                    </div>    
-                    <div class="item item-8"></div>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <footer class="footer">
-            <p class="footer-work">Сотруднечество</p>
-
-            <div class="footer-slogan"><p class="footer-slogan-text">Воплощаем самые смелые творческие замыслы, позволяя творцам сосредоточится на главном – создании истории
-            </p></div>
-
-            <div class="footer-contacts">
-                <a href="tel:+79688215377" class="contact">+7 968 821 5377</a>
-
-                <div class="footer-contacts-inst">
-                    <div class="inst-url">
-                        <img src="Photo/Insta_Logo.svg" alt="">
-                        <a href="https://www.instagram.com/shepelev_team?igsh=Ynpoc3ZzNWFoejh4">shepelev_team</a>
-                    </div>
-                    <p class="insta-warning">*продукт компании Meta, запрещён на территории РФ</p>
-                </div>
-            </div>
-        </footer>
+            <p class="insta-warning">
+              *продукт компании Meta, запрещён на территории РФ
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script/script_light.js"></script>
@@ -206,5 +330,5 @@
     <script src="script/script_slider2.js"></script>
     <script src="script/script_autoslider.js"></script>
     <script src="script/script_slider2-mob.js"></script>
-</body>
+  </body>
 </html>
