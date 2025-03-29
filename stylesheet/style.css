@@ -86,7 +86,6 @@ h6 {
   src: url("../Fonts/stolzl_book.woff2") format("woff2"),
     url(/Fonts/stolzl_book.ttf) format("truetype");
   font-weight: 400;
-  font-display: swap;
 }
 @font-face {
   font-family: "StolzlMedium";
