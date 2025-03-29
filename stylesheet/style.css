@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @font-face {
     font-family: 'Stolzl';
     src: url("../Fonts/stolzl_book.woff2") format('woff2'),
-         url("../Fonts/stolzl_book.ttf") format('truetype');
+         url(/Fonts/stolzl_book.ttf) format('truetype');
     font-weight: 400;
 }
 @font-face {
@@ -101,6 +101,12 @@ h1 {
     margin-top: 185px;
     text-align: right;
     width: calc(256px + 509*((100vw - 320px)/(1440 - 320)));
+}
+@media (max-width: 470px) {
+    h1 {
+        width: 256px;
+        font-size: 14px;
+    }
 }
 
 .main-down {
@@ -412,10 +418,19 @@ h1 {
     .Problems_Light-mob1, .Problems_Light-mob2 {
         display: block;
     }
+    .Problems_Light_Button {
+        border: 1px solid #FF0F00; 
+    }
+    .Problems_Light_Button.active {
+        border: 1px solid rgba(2, 166, 59, 0.75);
+    }
+    .Problems_Light_Button.unactive {
+        border: 1px solid #FF0F00;
+    }
 }
 .Problems_Light-mob1.show1 {
     transform: scaleY(1) scaleX(1) rotate(-22deg);
-    opacity: 0.79; 
+    opacity: 0.85; 
 }
 .Problems_Light-mob1.hide1 {
     transform: scaleY(0) scaleX(0); 
