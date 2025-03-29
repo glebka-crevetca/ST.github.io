@@ -46,7 +46,7 @@
 }
  .swiper {
     width: 100%;
-    height: calc(710px - 40*((100vw - 340px)/(768 - 340)));;
+    height: 730px;
 }
 
 .swiper-pagination-bullet {
