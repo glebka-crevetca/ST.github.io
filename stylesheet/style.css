@@ -75,7 +75,7 @@ body {
     width: 100%;
     height: 1024px;
 }
-.MainScreenPhoto1000, .MainScreenPhoto690 {
+.MainScreenPhoto1000, .MainScreenPhoto690, .MainScreenPhoto460 {
     display: none;
 }
 .Main {
@@ -153,6 +153,16 @@ h1 {
     }
     .main {
         width: 800px;
+    }
+}
+@media (max-width: 460px) {
+    .MainScreenPhoto690 {
+        display: none;
+    }
+    .MainScreenPhoto460 {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 }
 
