@@ -79,7 +79,6 @@ h6 {
   src: url("../Fonts/ActayWide-Bold.woff2") format("woff2"),
     url("../Fonts/ActayWide-Bold.ttf") format("truetype");
   font-weight: 700;
-  font-display: swap;
 }
 @font-face {
   font-family: "Stolzl";
@@ -92,7 +91,6 @@ h6 {
   src: url("../Fonts/stolzl_medium.woff2") format("woff2"),
     url("../Fonts/stolzl_medium.ttf") format("truetype");
   font-weight: 500;
-  font-display: swap;
 }
 
 body {
