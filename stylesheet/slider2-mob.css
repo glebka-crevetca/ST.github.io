@@ -20,7 +20,7 @@
 
 .Slider2-mob_header1,
 .Slider2-mob_header2 {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   color: rgba(245, 243, 243, 1);
   font-size: calc(25px + 7 * ((100vw - 340px) / (768 - 340)));
   margin-top: 25px;
@@ -33,7 +33,7 @@
 .Slider2-mob_content_text1,
 .Slider2-mob_content_text2 {
   font-size: calc(14px + 2 * ((100vw - 340px) / (768 - 340)));
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   color: #f5f3f3;
   width: calc(249px + 91 * ((100vw - 340px) / (768 - 340)));
   margin-top: 25px;
