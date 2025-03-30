@@ -1,5 +1,5 @@
 const slides = document.getElementById('slides');
-const slideCount = document.querySelectorAll('.slide').length;
+const slideCount = document.querySelectorAll('.slide1').length;
 let currentIndex = 0;
 let autoSlideInterval;
 
