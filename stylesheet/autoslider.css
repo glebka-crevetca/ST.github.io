@@ -24,7 +24,7 @@
 
 .WorkWithUs_Slider {
   display: flex;
-  gap: 10px;
+  gap: calc(5px + 5 * ((100vw - 340px) / (1440 - 340)));
   position: relative;
   overflow: hidden;
   margin-top: 50px;
@@ -33,7 +33,7 @@
 .column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: calc(5px + 5 * ((100vw - 340px) / (1440 - 340)));
   position: relative;
 }
 
@@ -46,19 +46,19 @@
 .column-2 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: calc(5px + 5 * ((100vw - 340px) / (1440 - 340)));
 }
 
 .column-3 {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: calc(5px + 5 * ((100vw - 340px) / (1440 - 340)));
 }
 
 .column-4 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: calc(5px + 5 * ((100vw - 340px) / (1440 - 340)));
 }
 
 #slider-1 { width: calc(88px + 59 * ((100vw - 340px) / (1440 - 340))); height: calc(66px + 132 * ((100vw - 340px) / (1440 - 340))); }
