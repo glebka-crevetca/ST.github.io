@@ -9,12 +9,12 @@
 }
 
 .text_header {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: calc(25px + 35 * ((100vw - 340px) / (1440 - 340)));
   color: #f5f3f3;
 }
 .text_text {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: calc(14px + 6 * ((100vw - 340px) / (1440 - 340)));
   color: #ffffff;
   margin-top: calc(29px + 89 * ((100vw - 340px) / (1440 - 340)));
