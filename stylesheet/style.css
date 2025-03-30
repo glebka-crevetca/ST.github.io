@@ -75,22 +75,25 @@ h6 {
 }
 
 @font-face {
-  font-family: "ActayWide";
+  font-family: "Actay Wide";
   src: url("../Fonts/ActayWide-Bold.woff2") format("woff2"),
     url("../Fonts/ActayWide-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Stolzl";
+  font-family: "Stolzl book";
   src: url("../Fonts/stolzl_book.woff2") format("woff2"),
     url("../Fonts/stolzl_book.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
-  font-family: "StolzlMedium";
+  font-family: "Stolzl medium";
   src: url("../Fonts/stolzl_medium.woff2") format("woff2"),
     url("../Fonts/stolzl_medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap;
 }
 
 body {
@@ -152,7 +155,7 @@ body {
 
 h1 {
   font-size: calc(14px + 9 * ((100vw - 320px) / (1440 - 320)));
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   color: #f5f3f3;
   margin-left: calc(50px + 584 * ((100vw - 320px) / (1440 - 320)));
   margin-right: 10px;
@@ -229,7 +232,7 @@ h1 {
   z-index: 2;
 }
 .WhoWeAre_Header {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: calc(32px + 28 * ((100vw - 340px) / (1440 - 340)));
   color: #f5f3f3;
   margin-left: calc(5px + 35 * ((100vw - 320px) / (1440 - 320)));
@@ -240,7 +243,7 @@ h1 {
 }
 .WhoWeAre_Text {
   width: calc(309px + 161 * ((100vw - 340px) / (1440 - 340)));
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(14px + 6 * ((100vw - 340px) / (1440 - 340)));
   color: #f5f3f3;
   margin-left: calc(5px + 35 * ((100vw - 320px) / (1440 - 320)));
@@ -255,7 +258,7 @@ h1 {
 }
 
 .WhoWeAre_Team {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: 60px;
   color: #f5f3f3;
   margin-left: 25px;
@@ -263,7 +266,7 @@ h1 {
 }
 .WhoWeAre_Team_Text {
   width: 542px;
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: 20px;
   color: #ffffff;
   margin-left: 25px;
@@ -331,7 +334,7 @@ h1 {
 }
 
 .Problems_Light_Button {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(14px + 16 * ((100vw - 340px) / (1440 - 340)));
   color: #ffffff;
   width: calc(267px + 359 * ((100vw - 340px) / (1440 - 340)));
@@ -371,7 +374,7 @@ h1 {
 }
 
 .Problems_Header {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: calc(32px + 28 * ((100vw - 340px) / (1440 - 340)));
   color: #f5f3f3;
   text-align: center;
@@ -388,7 +391,7 @@ h1 {
 
 .Problems_Text {
   width: calc(309px + 223 * ((100vw - 340px) / (1440 - 340)));
-  font-family: StolzlMedium, Arial, Sans-Serif;
+  font-family: "Stolzl medium", Arial, Sans-Serif;
   font-size: calc(16px + 12 * ((100vw - 340px) / (1440 - 340)));
   color: #232222;
   text-align: center;
@@ -552,7 +555,7 @@ h1 {
 
 .Slider2_headers {
   color: rgba(245, 243, 243, 1);
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: 40px;
   position: relative;
   display: flex;
@@ -592,7 +595,7 @@ h1 {
 }
 
 .Slider2_content_text {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: 20px;
   color: #f5f3f3;
   position: relative;
@@ -662,7 +665,7 @@ h1 {
   color: #b82e2e;
 }
 .footer-work {
-  font-family: ActayWide, Arial, Sans-Serif;
+  font-family: "Actay Wide", Arial, Sans-Serif;
   font-size: calc(14px + 56 * ((100vw - 340px) / (1440 - 340)));
   margin-top: calc(8px + 25 * ((100vw - 340px) / (1440 - 340)));
   margin-left: calc(11px + 37 * ((100vw - 340px) / (1440 - 340)));
@@ -673,7 +676,7 @@ h1 {
   justify-content: center;
 }
 .footer-slogan p {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(10px + 10 * ((100vw - 340px) / (1440 - 340)));
   margin-top: calc(14px + 42 * ((100vw - 340px) / (1440 - 340)));
   text-align: center;
@@ -686,7 +689,7 @@ h1 {
   justify-content: space-around;
 }
 .contact {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(11px + 34 * ((100vw - 340px) / (1440 - 340)));
   margin-right: 25%;
 }
@@ -703,11 +706,11 @@ h1 {
   height: calc(20px + 22 * ((100vw - 340px) / (1440 - 340)));
 }
 .inst-url a {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(11px + 34 * ((100vw - 340px) / (1440 - 340)));
 }
 .insta-warning {
-  font-family: Stolzl, Arial, Sans-Serif;
+  font-family: "Stolzl book", Arial, Sans-Serif;
   font-size: calc(3px + 13 * ((100vw - 340px) / (1440 - 340)));
   margin-top: calc(2px + 13 * ((100vw - 340px) / (1440 - 340)));
   margin-left: 20px;
