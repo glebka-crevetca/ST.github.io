@@ -224,13 +224,14 @@ h1 {
     height: 100%;
   }
   .MainScreen {
-    height: calc(610px + 70 * ((100vw - 340px) / (460 - 340)));
+    height: calc(520px + 90 * ((100vw - 340px) / (460 - 340)));
   }
   .Logo {
-    margin-top: 140px;
+    margin-top: 120px;
   }
   h1 {
     margin-left: calc(20px + 130 * ((100vw - 320px) / (460 - 320)));
+    margin-top: calc(122px + 58 * ((100vw - 320px) / (460 - 320)));
   }
 }
 
@@ -440,6 +441,11 @@ h1 {
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.slides img {
+  width: calc(480px + 53 * ((100vw - 1200px) / (1440 - 1200)));
+  height: calc(360px + 40 * ((100vw - 1200px) / (1440 - 1200)));
 }
 
 .button {
